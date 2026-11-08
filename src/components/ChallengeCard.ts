@@ -6,12 +6,12 @@ export function renderChallengeCard(day: MarathonDay, lang: SupportedLanguage = 
   const localized = day.localization[lang] || day.localization.en;
   const basePath = import.meta.env.BASE_URL || '/';
   
-  // 1. Здесь формируется персональная ссылка на страницу конкретного дня
+  // 1. Personal link for each day rspectively
   const detailUrl = `${basePath}${day.year}/${day.slug}`;
   const isLocked = status === 'LOCKED';
 
   return `
-    <!-- 2. Вся карточка обернута в тег <a>, что делает кликабельной любую ее часть (как для доступных, так и для заблокированных дней) -->
+    <!-- 2. Whole card wrapped in tag <a>, to be clickable -->
     <a href="${detailUrl}" class="challenge-card ${status.toLowerCase()}" data-category="${day.category}">
       <div class="card-header">
         <span class="badge category">${day.category}</span>

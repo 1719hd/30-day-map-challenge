@@ -40,7 +40,7 @@ function renderApp(): void {
   const headerHtml = `
     <header class="app-header">
       <div>
-        <h1 class="brand-title"><a href="${basePath}">${I18nManager.t('homeTitle', currentLang)}</a></h1>
+        <div class="brand-title"><a href="${basePath}">${I18nManager.t('homeTitle', currentLang)}</a></div>
         <p class="brand-subtitle">${I18nManager.t('homeSubtitle', currentLang)}</p>
       </div>
       ${renderLanguageSelector()}

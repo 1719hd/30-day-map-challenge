@@ -1,0 +1,56 @@
+{
+  "handle": "htochko",
+  "paypal": "helena.toczko.86@gmail.com",
+  "active_challenge": "30DayMapChallenge",
+  "author_location": { "lat": 50.2976, "lon": 18.6766 },
+  "submissions": {
+    "2026-11-12": {
+      "title": "Gliwice Campus Access Map",
+      "bounty_participation_acceptor": true,
+      "tags": ["vector", "architecture", "grunge"],
+      "moodboard": {
+        "fallback_preview": "https://raw.githubusercontent.com/htochko/htochko.github.io/refs/heads/master/pics/map/x.svg"
+      }
+    },
+    "2026-11-13": {
+      "title": "Gliwice Campus Access Map",
+      "bounty_participation_acceptor": true,
+      "tags": ["vector", "architecture", "grunge"],
+      "moodboard": {
+        "fallback_preview": "https://raw.githubusercontent.com/htochko/htochko.github.io/refs/heads/master/pics/map/cadmapper-wrocaw-lower-silesia-pl.svg"
+      }
+    },
+    "2026-11-14": {
+        "title": "Gliwice Campus Access Map",
+      "bounty_participation_acceptor": true,
+      "tags": ["vector", "architecture", "grunge"],
+      "moodboard": {
+        "fallback_preview": "https://raw.githubusercontent.com/htochko/htochko.github.io/refs/heads/master/pics/3dgallery.svg"
+      }
+    },
+    "2026-11-15": {
+        "title": "Gliwice Campus Access Map",
+      "bounty_participation_acceptor": true,
+      "tags": ["vector", "architecture", "grunge"],
+      "moodboard": {
+        "fallback_preview": "https://raw.githubusercontent.com/htochko/htochko.github.io/refs/heads/master/pics/abstract_0001.svg"
+      }
+    },
+    "2026-11-16": {
+        "title": "Gliwice Campus Access Map",
+      "bounty_participation_acceptor": true,
+      "tags": ["vector", "architecture", "grunge"],
+      "moodboard": {
+        "fallback_preview": "https://raw.githubusercontent.com/htochko/htochko.github.io/refs/heads/master/pics/map/arch.svg"
+      }
+    },
+    "2026-11-17": {
+        "title": "Gliwice Campus Access Map",
+      "bounty_participation_acceptor": true,
+      "tags": ["vector", "architecture", "grunge"],
+      "moodboard": {
+        "fallback_preview": "https://raw.githubusercontent.com/htochko/htochko.github.io/refs/heads/master/pics/map/head.svg"
+      }
+    }
+  }
+}

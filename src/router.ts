@@ -14,7 +14,7 @@ export class MarathonRouter {
     const basePath = MarathonRouter.getBasepathClean();
     let pathname = globalThis.location.pathname;
 
-    // Безопасное удаление префикса репозитория без ошибок со сдвигом индексов
+    // Safe prefix remove
     if (basePath !== '/' && pathname.startsWith(basePath)) {
       pathname = '/' + pathname.slice(basePath.length);
     }

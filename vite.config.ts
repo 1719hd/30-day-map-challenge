@@ -51,7 +51,7 @@ const staticApiPlugin = () => ({
 });
 
 export default defineConfig({
-  base: '/monthmarathone-template/',
+  base: '/30-day-map-challenge/',
   plugins: [staticApiPlugin()],
   build: {
     outDir: 'dist',

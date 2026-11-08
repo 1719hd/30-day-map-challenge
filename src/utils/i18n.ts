@@ -3,8 +3,8 @@ import { SupportedLanguage, LocalizedContent, MarathonDay } from '../types/chall
 // UI Dictionary for interface elements across supported languages
 export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> = {
   en: {
-    homeTitle: 'Month Marathon Template',
-    homeSubtitle: 'Universal workspace for monthly challenges, maps, and architectural sketches.',
+    homeTitle: 'Helens Tochko\'s 30 map challenge',
+    homeSubtitle: 'Open-source map pool for daily challenges accepting sponsorship.',
     selectYear: 'Select Challenge Year:',
     backToHome: '← Back to Home',
     locked: 'Locked',
@@ -13,8 +13,8 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     techStack: 'Tech Stack & Keywords',
   },
   de: {
-    homeTitle: 'Monats-Marathon-Vorlage',
-    homeSubtitle: 'Universeller Arbeitsbereich für monatliche Challenges, Karten und Architekturskizzen.',
+    homeTitle: '30-Karten-Challenge von Helen Tochko',
+    homeSubtitle: 'Open-Source-Karten-Pool für tägliche Challenges mit Sponsoring-Option.',
     selectYear: 'Challenge-Jahr auswählen:',
     backToHome: '← Zurück zur Startseite',
     locked: 'Gesperrt',
@@ -23,8 +23,8 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     techStack: 'Tech-Stack & Keywords',
   },
   ru: {
-    homeTitle: 'Шаблон месячного марафона',
-    homeSubtitle: 'Универсальный репозиторий для ежемесячных челленджей, карт и архитектурных скетчей.',
+    homeTitle: '30-дневный картографический челлендж: Елены Точко',
+    homeSubtitle: 'Открытый пул карт для ежедневных челленджей с поддержкой спонсоров',
     selectYear: 'Выберите год марафона:',
     backToHome: '← На главную',
     locked: 'Заблокировано',
@@ -33,8 +33,8 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     techStack: 'Стек и ключевые слова',
   },
   pl: {
-    homeTitle: 'Szablon Maratonu Miesięcznego',
-    homeSubtitle: 'Uniwersalna baza dla miesięcznych wyzwań, map i szkiców architektonicznych.',
+    homeTitle: '30 dniowe wyzwanie kartograficzne Heleny Toczko',
+    homeSubtitle: 'Otwarta pula map dla codziennych wyzwań z opcją wsparcia',
     selectYear: 'Wybierz rok wyzwania:',
     backToHome: '← Powrót do strony głównej',
     locked: 'Zablokowane',
