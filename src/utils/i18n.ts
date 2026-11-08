@@ -3,7 +3,7 @@ import { SupportedLanguage, LocalizedContent, MarathonDay } from '../types/chall
 // UI Dictionary for interface elements across supported languages
 export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> = {
   en: {
-    homeTitle: 'Helens Tochko\'s 30 map challenge',
+    homeTitle: 'Dariusz Ochman\'s 30 map challenge',
     homeSubtitle: 'Open-source map pool for daily challenges accepting sponsorship.',
     selectYear: 'Select Challenge Year:',
     backToHome: '← Back to Home',
@@ -13,7 +13,7 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     techStack: 'Tech Stack & Keywords',
   },
   de: {
-    homeTitle: '30-Karten-Challenge von Helen Tochko',
+    homeTitle: '30-Karten-Challenge von Daro Ochman',
     homeSubtitle: 'Open-Source-Karten-Pool für tägliche Challenges mit Sponsoring-Option.',
     selectYear: 'Challenge-Jahr auswählen:',
     backToHome: '← Zurück zur Startseite',
@@ -23,7 +23,7 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     techStack: 'Tech-Stack & Keywords',
   },
   ru: {
-    homeTitle: '30-дневный картографический челлендж: Елены Точко',
+    homeTitle: '30-дневный картографический челлендж: Дариуш Охман',
     homeSubtitle: 'Открытый пул карт для ежедневных челленджей с поддержкой спонсоров',
     selectYear: 'Выберите год марафона:',
     backToHome: '← На главную',
@@ -33,7 +33,7 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     techStack: 'Стек и ключевые слова',
   },
   pl: {
-    homeTitle: '30 dniowe wyzwanie kartograficzne Heleny Toczko',
+    homeTitle: '30 dniowe wyzwanie kartograficzne Dariusza Ochmana',
     homeSubtitle: 'Otwarta pula map dla codziennych wyzwań z opcją wsparcia',
     selectYear: 'Wybierz rok wyzwania:',
     backToHome: '← Powrót do strony głównej',
