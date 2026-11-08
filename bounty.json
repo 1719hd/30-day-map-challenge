@@ -1,31 +1,32 @@
 {
-  "handle": "htochko",
-  "paypal": "helena.toczko.86@gmail.com",
+  "handle": "1719hd",
+  "paypal": "1719hd@gmail.com",
   "active_challenge": "30DayMapChallenge",
+  "author_name": "Dariusz Ochman",
   "author_location": { "lat": 50.2976, "lon": 18.6766 },
   "submissions": {
     "2026-11-12": {
-      "title": "Gliwice Campus Access Map",
+      "title": "Points",
       "bounty_participation_acceptor": true,
-      "tags": ["vector", "architecture", "grunge"],
+      "tags": ["abstract", "grunge"],
       "moodboard": {
-        "fallback_preview": "https://raw.githubusercontent.com/htochko/htochko.github.io/refs/heads/master/pics/map/x.svg"
+        "fallback_preview": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/f0da88238425037.691473bfb6fa1.jpeg"
       }
     },
     "2026-11-13": {
-      "title": "Gliwice Campus Access Map",
+      "title": "Lines",
       "bounty_participation_acceptor": true,
       "tags": ["vector", "architecture", "grunge"],
       "moodboard": {
-        "fallback_preview": "https://raw.githubusercontent.com/htochko/htochko.github.io/refs/heads/master/pics/map/cadmapper-wrocaw-lower-silesia-pl.svg"
+        "fallback_preview": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/7b342a238723609.691aea1d384bc.jpeg"
       }
     },
     "2026-11-14": {
-        "title": "Gliwice Campus Access Map",
+      "title": "Shapes",
       "bounty_participation_acceptor": true,
       "tags": ["vector", "architecture", "grunge"],
       "moodboard": {
-        "fallback_preview": "https://raw.githubusercontent.com/htochko/htochko.github.io/refs/heads/master/pics/3dgallery.svg"
+        "fallback_preview": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/515579237581213.6903525d2343a.jpeg"
       }
     },
     "2026-11-15": {
@@ -33,7 +34,7 @@
       "bounty_participation_acceptor": true,
       "tags": ["vector", "architecture", "grunge"],
       "moodboard": {
-        "fallback_preview": "https://raw.githubusercontent.com/htochko/htochko.github.io/refs/heads/master/pics/abstract_0001.svg"
+        "fallback_preview": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/ff122f229164595.685fcd9bcbded.png"
       }
     },
     "2026-11-16": {
@@ -41,15 +42,15 @@
       "bounty_participation_acceptor": true,
       "tags": ["vector", "architecture", "grunge"],
       "moodboard": {
-        "fallback_preview": "https://raw.githubusercontent.com/htochko/htochko.github.io/refs/heads/master/pics/map/arch.svg"
+        "fallback_preview": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/6de1fe233016225.68a7601f4327d.png"
       }
     },
     "2026-11-17": {
-        "title": "Gliwice Campus Access Map",
+      "title": "Gliwice Campus Access Map",
       "bounty_participation_acceptor": true,
-      "tags": ["vector", "architecture", "grunge"],
+      "tags": ["cosmos", "moon", "earth"],
       "moodboard": {
-        "fallback_preview": "https://raw.githubusercontent.com/htochko/htochko.github.io/refs/heads/master/pics/map/head.svg"
+        "fallback_preview": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/5aa32f238719729.691ad93588337.jpeg"
       }
     }
   }
