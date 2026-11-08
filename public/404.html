@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      // Single Page App redirect for GitHub Pages
+      // Adjust segment count if your repo structure is deeper
+      var repoSegmentCount = 1; 
+      var loc = globalThis.location;
+      loc.replace(
+        loc.protocol + '//' + loc.hostname + (loc.port ? ':' + loc.port : '') +
+        loc.pathname.split('/').slice(0, 1 + repoSegmentCount).join('/') +
+        '/?p=/' + loc.pathname.split('/').slice(1 + repoSegmentCount).join('/') +
+        loc.search + loc.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>

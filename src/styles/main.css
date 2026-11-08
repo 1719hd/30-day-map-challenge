@@ -1,0 +1,201 @@
+@import './variables.css';
+@import './cards.css';
+
+:root {
+  font-family: var(--font-sans);
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* App Header & Navigation */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.brand-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.brand-title a {
+  color: var(--text-main);
+  text-decoration: none;
+}
+
+.brand-title a:hover {
+  color: var(--primary);
+}
+
+.brand-subtitle {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin: 0.25rem 0 0 0;
+}
+
+/* Year Selection Links */
+.year-selector {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.year-btn {
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-dashed);
+  background: var(--bg-card);
+  color: var(--text-main);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+
+.year-btn:hover {
+  border-color: var(--primary);
+}
+
+.year-btn.active {
+  background: var(--text-main);
+  color: var(--bg-card);
+  border-color: var(--text-main);
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.breadcrumbs a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs .sep {
+  margin: 0 0.4rem;
+  color: var(--border-dashed);
+}
+
+/* Hero Section */
+.hero-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 3rem 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+}
+
+.hero-badge {
+  background: #eff6ff;
+  color: var(--primary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+}
+
+/* Footer */
+.app-footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-right {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.footer-right a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-right a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.footer-lang-hint {
+  background: var(--badge-bg);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+/* Countdown Timer */
+.timer-box {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-card);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  margin: 1.5rem auto;
+}
+
+.slot-digits-wrapper {
+  gap: 0px
+}
+
+.svg-digit-window {
+  overflow: hidden;
+  border: 6px solid currentColor;
+}
+
+#countdown-root {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  font-family: monospace;
+}
+.header-cetered {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.morph-countdown-grid:first-child {
+  padding-left: calc((100% - 680px)/2);
+}

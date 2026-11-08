@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 — Page Not Found</title>
+    <style>
+      body { font-family: system-ui, sans-serif; background: #0f172a; color: #f8fafc; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+      .card { text-align: center; max-width: 480px; padding: 2rem; border: 1px solid #334155; border-radius: 12px; background: #1e293b; }
+      .btn { display: inline-block; margin-top: 1rem; padding: 0.75rem 1.5rem; background: #3b82f6; color: white; text-decoration: none; border-radius: 6px; font-weight: 600; cursor: pointer; border: none; }
+      .btn:hover { background: #2563eb; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>404</h1>
+      <p>This challenge day does not exist or has not been unlocked yet.</p>
+      <button id="back-btn" class="btn">Go Back</button>
+    </div>
+
+    <script>
+      // Automatically detect GitHub Pages repository subpath (e.g. /repo-name/)
+      const pathSegments = window.location.pathname.split('/').filter(Boolean);
+      const repoBase = pathSegments.length > 0 && !pathSegments[0].match(/^20\d{2}$/) 
+        ? '/' + pathSegments[0] + '/' 
+        : '/';
+
+      const backBtn = document.getElementById('back-btn');
+      backBtn.addEventListener('click', () => {
+        if (window.history.length > 1) {
+          window.history.back();
+        } else {
+          window.location.href = repoBase;
+        }
+      });
+    </script>
+  </body>
+</html>
